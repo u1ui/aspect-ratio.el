@@ -10,7 +10,6 @@ Since we can't use the css property aspect-ratio yet (Safari) we have an element
 - CSS only fallback
 - If the content is heighter than calculated by aspect-ratio, the content-height wins
 - Performant and responsive, because the aspect ratio is generated with css
-- Note: to make the element work with border and padding, the element has a forced `box-sizing:content-box`
 
 ## Ussage
 
@@ -22,3 +21,7 @@ Since we can't use the css property aspect-ratio yet (Safari) we have an element
     Some Content
 </u1-aspect-ratio>
 ```
+
+## Note
+
+To make the element work with border and padding, the element has a forced `box-sizing:content-box`
