@@ -2,7 +2,7 @@
 
 Since we can't use the css property aspect-ratio yet (Safari) we have an element here that brings a good implementation of aspect-ratio with it
 
-# Features
+## Features
 - No `overflow:hidden`
 - No `position:relative` or `position:absolute`
 - `min-height` and `max-height` wins over the aspect-ratio
@@ -12,7 +12,7 @@ Since we can't use the css property aspect-ratio yet (Safari) we have an element
 - Performant and responsive, because the aspect ratio is generated with css
 - Note: to make the element work with border and padding, the element has a forced `box-sizing:content-box`
 
-# Ussage
+## Ussage
 
 ```html
 <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@x.x.x/aspect-ratio.min.css">
