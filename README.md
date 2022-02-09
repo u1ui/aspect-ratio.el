@@ -26,7 +26,6 @@ Since we can't use the css property aspect-ratio yet (Safari) we have an element
 https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/no-js.html  
 https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/test.html  
 
-
 ## Note
 
 - To make the element work with border and padding, the element has a forced `box-sizing:content-box`
