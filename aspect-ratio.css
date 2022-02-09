@@ -1,0 +1,16 @@
+u1-aspect-ratio {
+    box-sizing: content-box !important;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    /* min-width: stretch; todo, when supported */
+    /*
+        xmin-width: fill-available;
+        xaspect-ratio: var(--u1-ratio); would not behave the same as without aspect-ratio support
+    */
+}
+
+u1-aspect-ratio .-body {
+    flex:1 1 auto;
+}

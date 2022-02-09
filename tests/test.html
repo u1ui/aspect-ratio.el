@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+
+<head lang=en>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width">
+
+    <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/base.css/full.css">
+    <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/variables.min.css">
+    <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/classless.min.css">
+    <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/more.min.css">
+    <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/aria.min.css">
+    <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/simple.min.css">
+
+
+    <link rel=stylesheet href="../aspect-ratio.css">
+    <script src="../aspect-ratio.js" type=module></script>
+
+<body>
+
+    <header>
+        <h1>u1-aspect-ratio tests</h1>
+    </header>
+
+    <section>
+        <h2>Main test</h2>
+
+        <style style="display:block" contenteditable>
+        #test1 {
+            --u1-ratio:1;
+            border:20px solid red;
+            max-height:500px;
+            min-height:200px;
+        }
+        #test1 > .-body {
+            display:flex;
+            align-items:center;
+            justify-content: center;
+        }
+        </style>
+
+        <div style="position:relative; border:2px solid black; padding:30px; resize:both; overflow:hidden">
+
+            <u1-aspect-ratio id=test1>
+                <div class=-body style="background:yellow">
+                    class=-body has flex: 1 1 auto
+                </div>
+                <div>
+                    no class
+                </div>
+                <small style="position:absolute; right:10px; bottom:10px; border:2px solid black; background:white;">
+                    look, the u1-aspect-ratio element has no <br>
+                    position:relative or overflow:hidden
+                </small>
+            </u1-aspect-ratio>
+
+        </div>
+
+    </section>
+
+
+    <section>
+        <h2>Content wins</h2>
+
+        <style style="display:block" contenteditable>
+        #test2 {
+            width:200px;
+            --u1-ratio:.5;
+        }
+        </style>
+
+        <u1-aspect-ratio id=test2 style="border:2px solid red">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nemo ab deserunt qui odit, aspernatur temporibus quo ex iure nesciunt quod vero, aperiam earum laboriosam labore voluptatem, cupiditate explicabo officia!
+        </u1-aspect-ratio>
+
+
+    </section>
