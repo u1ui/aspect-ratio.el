@@ -19,8 +19,6 @@ Since we can't use the css property aspect-ratio yet (Safari) we have an element
 <script src="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@x.x.x/aspect-ratio.min.js" type=module></script>
 
 <u1-aspect-ratio style="--ratio:1; max-height:100vh; min-height:200px; border:2px solid red">
-    <div class=-body>
-        Some Content
-    </div>
+    Some Content
 </u1-aspect-ratio>
 ```
