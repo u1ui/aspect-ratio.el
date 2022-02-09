@@ -25,4 +25,3 @@ Since we can't use the css property aspect-ratio yet (Safari) we have an element
 ## Note
 
 - To make the element work with border and padding, the element has a forced `box-sizing:content-box`
-- Use a element `<div class=-body></div>` to fill the available height
