@@ -24,20 +24,6 @@
     <section>
         <h2>Main test</h2>
 
-        <style style="display:block" contenteditable>
-        #test1 {
-            --u1-ratio:1;
-            border:20px solid red;
-            max-height:500px;
-            min-height:200px;
-        }
-        #test1 > .-body {
-            display:flex;
-            align-items:center;
-            justify-content: center;
-        }
-        </style>
-
         <div style="position:relative; border:2px solid black; padding:30px; resize:both; overflow:hidden">
 
             <u1-aspect-ratio id=test1>
@@ -55,18 +41,32 @@
 
         </div>
 
+<style style="display:block" contenteditable>
+#test1 {
+    --u1-ratio:1;
+    border:20px solid red;
+    max-height:500px;
+    min-height:200px;
+}
+#test1 > .-body {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+</style>
+
     </section>
 
 
     <section>
         <h2>Content wins</h2>
 
-        <style style="display:block" contenteditable>
-        #test2 {
-            width:200px;
-            --u1-ratio:.5;
-        }
-        </style>
+<style style="display:block" contenteditable>
+#test2 {
+    width:200px;
+    --u1-ratio:.5;
+}
+</style>
 
         <u1-aspect-ratio id=test2 style="border:2px solid red">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nemo ab deserunt qui odit, aspernatur temporibus quo ex iure nesciunt quod vero, aperiam earum laboriosam labore voluptatem, cupiditate explicabo officia!
