@@ -23,6 +23,7 @@ Since we can't use the css property aspect-ratio yet (Safari) we have an element
 ```
 
 ## Demos
+https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/minimal.html  
 https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/no-js.html  
 https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/test.html  
 
