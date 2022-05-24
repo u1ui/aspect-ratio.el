@@ -18,12 +18,12 @@ class AspectRatio extends HTMLElement {
                 flex: 1 1 auto; /* if host is a flex-container */
             }
             :host > .wrapper > slot {
-                grid-area: 1 / 1 / 1 / 1;
+                grid-area: 1/1;
                 display:flex;
                 flex-direction:column;
             }
             :host > .wrapper > .spacer {
-                grid-area: 1 / 1 / 1 / 1;
+                grid-area: 1/1;
                 min-height:inherit;
                 max-height:inherit;
                 overflow:hidden;
