@@ -10,7 +10,11 @@
 <body>
 
     <section>
-        <u1-aspect-ratio>Hello world</u1-aspect-ratio>
+        <u1-aspect-ratio>
+            <div class=-body>
+                Hello world
+            </div>
+        </u1-aspect-ratio>
     </section>
 
     <style>
@@ -19,5 +23,11 @@
             min-height:100px;
             max-height:260px;
             background:var(--color-light);
+        }
+        u1-aspect-ratio > .-body {
+            padding:1rem;
+            display:flex;
+            align-items:center;
+            justify-content: center;
         }
     </style>
