@@ -1,6 +1,7 @@
 # aspect-ratio.el
 
-CSS now has the property: aspect ratio". But for our needs the behavior of this CSS property is not sufficient.
+CSS now has the property: aspect ratio".
+Instead of waiting for safari we have Element.
 
 ## Features
 - No `overflow:hidden`
