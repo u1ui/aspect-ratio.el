@@ -1,11 +1,11 @@
 # aspect-ratio.el
 
-Since we can't use the css property aspect-ratio yet (Safari) we have an element here that brings a good implementation of aspect-ratio with it
+CSS now has the property: aspect ratio". But for our needs the behavior of this CSS property is not sufficient.
 
 ## Features
 - No `overflow:hidden`
 - No `position:relative` or `position:absolute`
-- `min-height` and `max-height` wins over the aspect-ratio
+- `min-height` and `max-height` wins over the aspect-ratio (behavoir not possible with native CSS `aspect-ratio`!?)
 - Use the class '-body' to fill the available height
 - CSS only fallback
 - If the content is heighter than calculated by aspect-ratio, the content-height wins
