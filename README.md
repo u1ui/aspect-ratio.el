@@ -33,8 +33,8 @@ Instead of waiting for safari we have Element.
 
 ## Demos
 
-https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/minimal.html  
-https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/test.html  
+[minimal.html](https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/minimal.html)  
+[test.html](https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/test.html)  
 
 ## Note
 
