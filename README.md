@@ -24,6 +24,13 @@ Instead of waiting for safari we have Element.
 </u1-aspect-ratio>
 ```
 
+## Install
+
+```html
+<link href="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@3.0.0/aspect-ratio.min.css" rel=stylesheet>
+<script src="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@3.0.0/aspect-ratio.min.js" type=module>
+```
+
 ## Demos
 
 https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/minimal.html  
@@ -32,13 +39,6 @@ https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/test.html
 ## Note
 
 - To make the element work with border and padding, the element has a forced `box-sizing:content-box`
-
-## Install
-
-```html
-<link href="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@3.0.0/aspect-ratio.min.css" rel=stylesheet>
-<script src="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@3.0.0/aspect-ratio.min.js" type=module>
-```
 
 ## About
 
