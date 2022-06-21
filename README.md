@@ -1,7 +1,6 @@
 # &lt;u1-aspect-ratio&gt; - element
 (soon deprecated) especially because of safari
 
-
 CSS now has the property: aspect ratio".
 Instead of waiting for safari we have Element.
 
@@ -28,7 +27,7 @@ Instead of waiting for safari we have Element.
 ## Demos
 
 https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/minimal.html  
-https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/test.html
+https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/test.html  
 
 ## Note
 
@@ -40,11 +39,6 @@ https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/test.html
 <link href="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@3.0.0/aspect-ratio.min.css" rel=stylesheet>
 <script src="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@3.0.0/aspect-ratio.min.js" type=module>
 ```
-
-## Demo
-
-https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/minimal.html  
-https://raw.githack.com/u1ui/aspect-ratio.el/main/tests/test.html  
 
 ## About
 
