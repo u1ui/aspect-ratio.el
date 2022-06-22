@@ -24,6 +24,21 @@ Instead of waiting for safari we have Element.
 </u1-aspect-ratio>
 ```
 
+```css
+u1-aspect-ratio {
+    --u1-ratio:.5;
+    min-height:100px;
+    max-height:260px;
+    background:var(--color-light);
+}
+u1-aspect-ratio > .-body {
+    padding:1rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+```
+
 ## Install
 
 ```html
