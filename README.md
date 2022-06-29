@@ -48,8 +48,8 @@ u1-aspect-ratio > .-body {
 
 ## Demos
 
-[minimal.html](http://gcdn.li/u1ui/aspect-ratio.el/main/tests/minimal.html)  
-[test.html](http://gcdn.li/u1ui/aspect-ratio.el/main/tests/test.html)  
+[minimal.html](http://gcdn.li/u1ui/aspect-ratio.el@main/tests/minimal.html)  
+[test.html](http://gcdn.li/u1ui/aspect-ratio.el@main/tests/test.html)  
 
 ## Note
 
