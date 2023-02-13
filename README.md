@@ -42,8 +42,8 @@ u1-aspect-ratio > .-body {
 ## Install
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@3.0.0/aspect-ratio.min.css" rel=stylesheet>
-<script src="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@3.0.0/aspect-ratio.min.js" type=module>
+<link href="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@x.x.x/aspect-ratio.min.css" rel=stylesheet>
+<script src="https://cdn.jsdelivr.net/gh/u1ui/aspect-ratio.el@x.x.x/aspect-ratio.min.js" type=module>
 ```
 
 ## Demos
