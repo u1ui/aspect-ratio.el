@@ -1,5 +1,5 @@
 # &lt;u1-aspect-ratio&gt; - element
-(soon deprecated) especially because of safari
+especially because of safari (soon deprecated)
 
 CSS now has the property: aspect ratio".
 Instead of waiting for safari we have Element.
